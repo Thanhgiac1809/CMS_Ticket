@@ -1,0 +1,631 @@
+/* Body */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dangnhap, .datlaimatkhau, .quenmatkhau{
+    margin-top: 90px;
+}
+.dangky {
+    background-color: #f7f7f7;
+}
+/* Logo */
+.img {
+    text-align: left;
+    padding-top: 20px;
+}
+.img_dangnhap {
+    text-align: center;
+}
+.img_dangky {
+    margin-left: 600px;
+}
+.img_datlaimatkhau {
+    text-align: center;
+}
+.img_quenmatkhau {
+    text-align: center;
+}
+
+/* Menu */
+ .menu ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 40px;
+}
+.menu ul a {
+    padding-left: 15px;
+    color: #848387;
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+}
+.menu ul a:hover {
+    color: #fff;
+    background-color: #ffb800;
+    border-radius: 5px;
+}
+/* Trang quản lý vé */
+.ticket_management {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 1230px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin-left: 6px;
+}
+.ticket_management h5 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* Thanh tìm kiếm header */
+.dropd {
+    width: 400px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ededed;
+    background-color: #ededed;
+    padding-left: 10px;
+    color: #afaaa7;
+    font-style: italic;
+}
+/* Thanh tìm kiếm vé */
+.dropd-ticket {
+    width: 380px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ededed;
+    background-color: #ededed;
+    padding-left: 10px;
+    color: #afaaa7;
+    font-style: italic;
+}
+/* Thanh tìm kiếm vé (trang đối soát vé)*/
+.dropd-ticket-check {
+    width: 380px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ededed;
+    background-color: #ededed;
+    padding-left: 10px;
+    color: #afaaa7;
+    font-style: italic;
+}
+.dropdown-icon-ticket i{
+    position: absolute;
+    top: 50%;
+    left: 338px;
+    transform: translateY(-50%);
+}
+.dropdown-icon i {
+    position: absolute;
+    top: 50%;
+    left: 360px;
+    transform: translateY(-50%);
+}
+.dropdown-icon-ticket-check i {
+    position: absolute;
+    top: 50%;
+    left: 338px;
+    transform: translateY(-50%);
+}
+input.dropd::placeholder,
+input.dropd-ticket::placeholder,
+input.dropd-ticket-check::placeholder {
+    color: #afaaa7 !important;
+    font-style: italic;
+}
+input.dropd:focus,
+input.dropd-ticket:focus,
+input.dropd-ticket-check:focus {
+    outline: none;
+}
+.dropdown-icon,
+.dropdown-icon-ticket,
+.dropdown-icon-ticket-check{
+    position: relative;
+}
+
+.icon_search {
+    color: #493b33;
+    font-size: 20px;
+}
+.dropd::-webkit-search-cancel-button,
+.dropd-ticket::-webkit-search-cancel-button,
+.dropd-ticket-check::-webkit-search-cancel-button{
+    display: none;
+}
+
+/* User */
+.user {
+    display: flex; 
+    line-height: 40px;
+}
+.user p a{
+    text-decoration: none;
+    color: #493b33;
+}
+.user p a i {
+    font-size: 20px;
+    padding-left: 20px;
+}
+/* Chỉnh hình avatar nhỏ */
+.icon_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* Button lọc vé và xuất file csv */
+.button_ticket_filter {
+    width: 120px; 
+    height: 45px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #ff993b;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.button_ticket_filter a {
+    color: #ff993b;
+    text-decoration: none;
+}
+
+/* Bảng thông tin */
+.table-list-device {
+    margin-top: 16px;
+    border-radius: 12px;
+}
+table {
+    border-radius: 12px;
+    width: 1190px;
+    filter: drop-shadow(2px 2px 8px rgba(232, 239, 244, 0.8));
+}
+tbody {
+    border-radius: 12px;
+}
+table thead {
+    background-color: #f1f4f8;
+}
+table thead tr td {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+table tbody tr td {
+    color: #000;
+    font-size: 16px;
+}
+.th-border-left {
+    border-radius: 12px 0px 0px 0px;
+    text-align: center;
+}
+.th-border-right {
+    border-radius: 0px 12px 0px 0px;
+}
+.th-border-bottom-left {
+    border-radius: 0px 0px 0px 12px;
+    text-align: center;
+}
+.th-border-bottom-right {
+    border-radius: 0px 0px 12px 0px;
+}
+tr {
+    height: 48px;
+}
+td {
+    font-weight: 400;
+    font-size: 16px;
+    color: #848387;
+    padding-left: 12px;
+    line-height: 10px;
+}
+td a {
+    font-weight: 400;
+    font-size: 14px;
+}
+.color-tr-or {
+    background-color: #f7f8fb;
+}
+.color-tr-white {
+    background-color: #ffffff;
+}
+tr:nth-child(even) {
+  background-color: #f7f8fb;
+}
+
+.change_control_child {
+    padding: 15px;
+}
+.change_control_child a {
+    color: #f7f8fb;
+    font-size: 18px;
+}
+.change_control {
+    padding: 15px;
+}
+.change_control a {
+    color: #fff;
+    font-size: 18px;
+}
+.change_control a:hover, .change_control_child a:hover {
+    color: #848387;
+}
+/* Tình trạng của  vé */
+.status_ticket_used {
+    width: 120px; 
+    height: 35px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #919dba;
+    background-color: #eaf1f8;
+    color: #919dba;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.status_ticket_notused {
+    width: 140px; 
+    height: 35px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #919dba;
+    background-color: #eaf1f8;
+    color: #03ac00;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.status_ticket_expired {
+    width: 120px; 
+    height: 35px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #fd5959;
+    background-color: #f8ebe8;
+    color: #fd5959;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+/* Phân trang */
+.phantrang {
+    display: inline-block;
+    height: 32px;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+.trang {
+    display: flex;
+}
+
+.trang li {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trang li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.modautrang {
+    border: 2px solid #ff993b;
+}
+.modautrang a {
+    color: #ff993b !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Trang đối soát vé */
+.ticket_check {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.ticket_filter {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.ticket_check h5 {
+    font-weight: 700;
+    font-size: 25px;
+}
+.ticket_filter h5 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* Radio trang đối soát vé */
+.radio {
+    font-size: 18px;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.radio input[type="radio"] {
+    display: none;
+}
+.radio span {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; 
+    border: 3px solid #27aef9;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.radio span:after {
+    content: "";
+    height: 12px;
+    width: 12px;
+    background-color: #27aef9;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%; 
+    transition: 100ms ease-in-out 0s;
+}
+.radio input[type="radio"]:checked ~ span:after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Thanh thời gian từ và đến */
+.dropd-ticket-date {
+    width: 180px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #e0e0e0;
+    padding-left: 10px;
+    color: #afaaa7;
+    font-style: italic;
+    margin-top: -10px;
+    outline: none;
+}
+
+.dropd-ticket-date::-webkit-calendar-picker-indicator {
+    display: none; /* Hide the date picker button */
+}
+
+.dropdown-icon-date i {
+    position: absolute;
+    top: 50%;
+    left: 145px;
+    transform: translateY(-50%);
+}
+
+input.dropd-ticket-date::placeholder {
+    color: #afaaa7 !important;
+    font-style: italic;
+}
+
+.dropdown-icon-date {
+    position: relative;
+}
+
+.dropdown-icon-date .icon_search {
+    color: #afaaa7;
+    font-size: 20px;
+}
+
+.dropd-ticket-date::-webkit-search-cancel-button{
+    display: none;
+}
+/*  */
+.dropd-ticket-expiry {
+    width: 180px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ededed;
+    background-color: #ededed;
+    padding-left: 10px;
+    color: #afaaa7;
+    font-style: italic;
+    margin-top: -10px;
+    outline: none;
+}
+
+.dropd-ticket-expiry::-webkit-calendar-picker-indicator {
+    display: none; /* Hide the date picker button */
+}
+
+.dropdown-icon-expiry i {
+    position: absolute;
+    top: 50%;
+    left: 145px;
+    transform: translateY(-50%);
+}
+
+input.dropd-ticket-expiry::placeholder {
+    color: #afaaa7 !important;
+    font-style: italic;
+}
+
+.dropdown-icon-expiry {
+    position: relative;
+}
+
+.dropdown-icon-expiry .icon_search {
+    color: #ff993b;
+    font-size: 20px;
+}
+
+.dropd-ticket-expiry::-webkit-search-cancel-button{
+    display: none;
+}
+/* Input trang cài đặt */
+.nhap {
+    width: 350px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #afaaa7;
+    padding-left: 10px;
+}
+.nhap:focus {
+    outline: none;
+}
+/* Thanh thời gian từ và đến */
+.dropd-ticket-date-setting {
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #afaaa7;
+    padding-left: 10px;
+    color: #afaaa7;
+    font-style: italic;
+    margin-top: 0px;
+    outline: none;
+}
+
+.dropd-ticket-date-setting::-webkit-calendar-picker-indicator {
+    display: none; /* Hide the date picker button */
+}
+
+.dropdown-icon-date-setting i {
+    position: absolute;
+    top: 50%;
+    left: 120px;
+    transform: translateY(-50%);
+}
+
+input.dropd-ticket-date-setting::placeholder {
+    color: #afaaa7 !important;
+    font-style: italic;
+}
+
+.dropdown-icon-date-setting {
+    position: relative;
+}
+
+.dropdown-icon-date-setting .icon_search {
+    color: #ff993b;
+    font-size: 20px;
+}
+
+.dropd-ticket-date-setting::-webkit-search-cancel-button{
+    display: none;
+}
+
+/* Checkbox */
+.wrapper {
+    display: flex;
+}
+.wrapper input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper label {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.wrapper input[type="checkbox"]:after {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f00c';
+    font-weight: 900;
+    color: #000;
+    font-size: 16px;
+    display: none;
+}
+.wrapper input[type="checkbox"]:checked:after {
+    display: block;
+}
+
+
+.select_loai {
+    color: #afaaa7;
+    font-style: italic;
+    width: 170px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #afaaa7;
+    padding-left: 10px;
+}
+.select_loai:focus {
+    outline: none;
+}
+.dropdown-loai {
+    position: relative;
+}
+.dropdown-loai select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.dropdown-loai i {
+    position: absolute;
+    top: 50%;
+    left: 140px;
+    transform: translateY(-50%);
+}
+.dropdown-loai::before {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    z-index: 10000;
+    width: 9px;
+    height: 9px;
+    border: 3px solid #ff993b;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg);
+}
+
+/* Biểu đồ tròn */
+.chart {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.editbtn {
+    border: none;
+    color: #ff993b;
+    font-size: 17px;
+    background-color: transparent;
+}
+
